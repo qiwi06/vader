@@ -1,12 +1,12 @@
-name: Bootstrap Barrio Subtheme
+name: Vader Subtheme
 type: theme
-description: 'Basic structure for a Bootstrap Barrio SubTheme.'
+description: 'Basic structure for a Vader SubTheme.'
 core_version_requirement: ^10.3 || ^11
-base theme: bootstrap_barrio
+base theme: vader
 
 libraries:
-  - bootstrap_barrio_subtheme/bootstrap_cdn
-  - bootstrap_barrio_subtheme/global-styling
+  - vader_subtheme/bootstrap_cdn
+  - vader_subtheme/global-styling
 
 regions:
   top_header: 'Top header'
@@ -34,5 +34,5 @@ regions:
 
 # Information added by Drupal.org packaging script on 2024-12-06
 version: '5.5.19'
-project: 'bootstrap_barrio'
+project: 'vader'
 datestamp: 1733499141
