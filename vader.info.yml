@@ -5,7 +5,7 @@ core_version_requirement: ^10.3 || ^11
 base theme: vader
 
 libraries:
-  - vader_subtheme/bootstrap_cdn
+  - vader_subtheme/vader_cdn
   - vader_subtheme/global-styling
 
 regions:

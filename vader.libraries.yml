@@ -7,21 +7,21 @@ global-styling:
       css/style.css: {}
       css/bootstrap.css: {}
       css/colors.css: {}
-bootstrap:
+vader:
   js:
     /libraries/popper.js/dist/umd/popper.min.js: { weight: -19 }
-    /libraries/bootstrap/dist/js/bootstrap.min.js: { weight: -20 }
+    /libraries/bootstrap/dist/js/vader.min.js: { weight: -20 }
   css:
     component:
-      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+      /libraries/vader/dist/css/vader.min.css: {}
   dependencies:
     - core/popperjs
-bootstrap_cdn:
+vader_cdn:
   js:
-    //cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js: {}
+    //cdn.jsdelivr.net/npm/vader@5.2.0/dist/js/vader.bundle.min.js: {}
   css:
     component:
-      //cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css: {}
+      //cdn.jsdelivr.net/npm/vader@5.2.0/dist/css/vader.min.css: {}
   dependencies:
     - core/popperjs
 color.preview:
