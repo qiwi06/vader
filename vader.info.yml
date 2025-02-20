@@ -5,8 +5,8 @@ core_version_requirement: ^10.3 || ^11
 base theme: bootstrap_barrio
 
 libraries:
-  - vader_subtheme/vader_cdn
-  - vader_subtheme/global-styling
+  - vader/bootstrap_cdn
+  - vader/global-styling
 
 regions:
   top_header: 'Top header'
