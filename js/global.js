@@ -7,7 +7,7 @@
 
   'use strict';
 
-  Drupal.behaviors.vader_subtheme = {
+  Drupal.behaviors.vader = {
     attach: function (context, settings) {
 
     }

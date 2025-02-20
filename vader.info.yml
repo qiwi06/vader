@@ -2,7 +2,7 @@ name: Vader Subtheme
 type: theme
 description: 'Basic structure for a Vader SubTheme.'
 core_version_requirement: ^10.3 || ^11
-base theme: vader
+base theme: bootstrap_barrio
 
 libraries:
   - vader_subtheme/vader_cdn
@@ -33,6 +33,4 @@ regions:
   footer_fifth: 'Footer fifth'
 
 # Information added by Drupal.org packaging script on 2024-12-06
-version: '5.5.19'
-project: 'vader'
-datestamp: 1733499141
+
