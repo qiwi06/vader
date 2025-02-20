@@ -1,4 +1,4 @@
-name: Vader Subtheme
+name: vader
 type: theme
 description: 'Basic structure for a Vader SubTheme.'
 core_version_requirement: ^10.3 || ^11
